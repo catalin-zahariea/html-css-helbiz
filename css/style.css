@@ -1,0 +1,134 @@
+/* COMMON */
+
+/* Font */
+
+body {
+  font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+/* Lists */
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* COMMON END */
+/* -------------------------------------------------------- */
+/* HEADER */
+
+/* Nav */
+
+nav {
+  padding: 20px;
+}
+
+header nav a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.burger-menu {
+  text-align: right;
+  font-size: 20px;
+}
+
+header nav .menu-nav li:nth-child(1n + 2) {
+  padding-left: 15px;
+}
+
+.lang-nav li:nth-child(1n + 2) {
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
+
+/* Jumbotron */
+
+.header-jumbotron {
+  background-image: url(../img/hero-bg.jpg);
+  height: 525px;
+  position: relative;
+}
+
+.header-teaser {
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-teaser img {
+  width: 100px;
+}
+
+.header-teaser-payoff {
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+/* HEADER END */
+/* -------------------------------------------------------- */
+/* MAIN */
+
+/* Products */
+
+.products [class*="col-"] {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 20px;
+}
+
+.products .container {
+  padding: 20px;
+}
+
+.products-payoff {
+  padding: 10px 0;
+  font-weight: 100;
+}
+
+.products a {
+  font-size: 12px;
+}
+
+.products img {
+  height: 400px;
+}
+
+/* How */
+
+.how {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 300px;
+  text-align: center;
+  background-size: cover;
+}
+
+.how img {
+  padding-top: 100px;
+  height: 500px;
+}
+
+.how .under-title {
+  font-size: 18px;
+  text-align: left;
+}
+
+.how .text-body {
+  font-size: 12px;
+  text-align: left;
+}
